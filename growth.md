@@ -2,6 +2,56 @@
 Growth: 全栈增长工程师指南
 ===
 
+关于作者
+---
+
+黄峰达（Phodal Huang）是一个创客、工程师、咨询师和作家。他毕业于西安文理学院电子信息工程专业，现作为一个咨询师就职于 ThoughtWorks 深圳。长期活跃于开源软件社区 GitHub，目前专注于物联网和前端领域。
+
+作为一个开源软件作者，著有 Growth、Stepping、Lan、Echoesworks 等软件。其中开源学习应用 Growth，广受读者和用户好评，可在 APP Store 及各大 Android 应用商店下载。
+
+作为一个技术作者，著有《自己动手设计物联网》（电子工业出版社）、《全栈应用开发：精益实践》（电子工业出版社，正在出版）。并在 GitHub 上开源有《Growth: 全栈增长工程师指南》、《GitHub 漫游指南》等七本电子书。
+
+作为技术专家，他为英国 Packt 出版社审阅有物联网书籍《Learning IoT》、《Smart IoT》，前端书籍《Angular 2 Serices》、《Getting started with Angular》等技术书籍。
+
+他热爱编程、写作、设计、旅行、hacking，你可以从他的个人网站：[https://www.phodal.com/](https://www.phodal.com/) 了解到更多的内容。
+
+其它相关信息：
+
+ - 微博：[http://weibo.com/phodal](http://weibo.com/phodal)
+ - GitHub： [https://github.com/phodal](https://github.com/phodal)
+ - 知乎：[https://www.zhihu.com/people/phodal](https://www.zhihu.com/people/phodal)
+ - SegmentFault：[https://segmentfault.com/u/phodal](https://segmentfault.com/u/phodal)
+
+当前为预览版，在使用的过程中遇到任何问题请及时与我联系。阅读过程中的问题，不妨在GitHub上提出来： [Issues](https://github.com/phodal/fe/issues)
+
+阅读过程中遇到语法错误、拼写错误、技术错误等等，不妨来个Pull Request，这样可以帮助到其他阅读这本电子书的童鞋。
+
+我的电子书：
+
+ * 《[GitHub 漫游指南](https://github.com/phodal/github-roam)》
+ * 《[我的职业是前端工程师](https://github.com/phodal/fe)》
+ * 《[Serverless 架构应用开发指南](https://github.com/phodal/serverless)》
+ * 《[Growth: 全栈增长工程师指南](https://github.com/phodal/growth-ebook)》
+ * 《[Phodal's Idea实战指南](https://github.com/phodal/ideabook)》
+ * 《[一步步搭建物联网系统](https://github.com/phodal/designiot)》
+ * 《[RePractise](https://github.com/phodal/repractise)》
+ * 《[Growth: 全栈增长工程师实战](https://github.com/phodal/growth-in-action)》
+
+我的微信公众号:
+
+![微信公众号：phodal-weixin](assets/article/prelude/wechat.jpg)
+
+支持作者，可以加入作者的小密圈:
+
+![小密圈](assets/article/prelude/xiaomiquan.jpg)
+
+或者转账：
+
+![支付宝](assets/article/prelude/alipay.png)
+
+![微信](assets/article/prelude/wechat-pay.png)
+
+
 这是一本不止于全栈工程师的学习手册，它也包含了如何成为一个 Growth Hacker 的知识。
 
 全栈工程师是未来
@@ -274,7 +324,7 @@ Linux 下面的命令有一大堆，只是我们常用的只有一小部分—�
 提高效率的工具
 ---
 
-在提交效率的 N 种方法里：有一个很重要的方法是使用快捷键。熟练掌握快捷键可以让我们随着自己的感觉编写程序——有时候如果我们手感不好，是不是就说明今天不适合写代码！笑~~
+在提高效率的 N 种方法里：有一个很重要的方法是使用快捷键。熟练掌握快捷键可以让我们随着自己的感觉编写程序——有时候如果我们手感不好，是不是就说明今天不适合写代码！笑~~
 
 由于我们可能使用不同的操作系统来完成不同的工具。下面就先说说一些通用的、不限操作的工具：
 
@@ -1389,7 +1439,7 @@ document.write(store.candyPrice * store.candyNum);
 
 我们就有了和 document.write 一样的用法，这也是对象的美妙之处，只是这里的对象只是包含着基本值，因为
 
-    typeof story.candyPrice="number"
+    typeof store.candyPrice="number"
 
 一个包含对象的对象应该是这样子的。
 
@@ -1603,23 +1653,23 @@ para.style.color="blue";
 
 So，这是一门很有应用前景的语言。
 
-###Python
+### Python
 
-Python 诞生得比较早，其语言特性——做事情只有一件方法，也决定了这门语言很简单。在 ThoughtWorks University 的学习过程中，接触了一些外国小伙伴，这是大多数人学习的第一门语言。
+Python 诞生得比较早，其语言特性——**做一件事情有且只有一种方法**，也决定了这门语言很简单。在 ThoughtWorks University 的学习过程中，接触了一些外国小伙伴，这是大多数人学习的第一门语言。
 
 Python 在我看来和 JavaScript 是相当划算的语言，除了它不能在前端运行，带来了一点劣势。Python 是一门简洁的语言，而且有大量的数学、科学工具，这意味着在不远的将来它会发挥更大的作用。我喜欢在我的各种小项目上用 Python，如果不是因为我对前端及数据可视化更感兴趣，那么Python 就是我的第一语言了。
 
-###Java
+### Java
 
 除此呢，我相信 Java 在目前来说也是一个不错的选择。
 
 在学校的时候，一点儿也不喜欢 Java。后来才发现，我从 Java 上学到的东西比其他语言上学得还多。如果 Oracle 不毁坏 Java，那么他会继续存活很久。我可以用 JavaScript 造出各种我想要的东西，但是通常我无法保证他们是优雅的实现。过去人们在 Java 上花费了很多的时间，或在架构上，或在语言上，或在模式上。由于这些投入，都给了人们很多的启发。这些都可以用于新的语言，新的设计，毕竟没有什么技术是独立于旧的技术产生出来的。
 
-###PHP
+### PHP
 
 PHP 呢，据说是这个『世界上最好的语言』，我服务器上运行着几个不同的 WordPress 实例。对于这门语言，我还是相当放心的。并且这门语言由于上手简单，同时国内有大量的程序员已经掌握好了这门语言。不得不提及的是 WordPress 已经占领了 CMS 市场超过一半的份额，并且它也占领了全球网站的四分之一。还有 Facebook，这个世界上最大的 PHP 站点也在使用这门语言。
 
-###其他
+### 其他
 
 个人感觉 Go 也不错，虽然没怎么用，但是性能应该是相当可以的。
 
@@ -2009,7 +2059,7 @@ JSON 格式的数据具有以下的一些特点：
 如下所示的是一个简单的对比过程：
 
 ```javascript
-myJSON = {"age" : 12, "name" : "Danielle"}
+myJSON = '{"age" : 12, "name" : "Danielle"}'
 ```
 
 如果我们要取出上面数值中的age，那么我们只需要这样做：
